@@ -9,6 +9,8 @@ render_with_liquid: false
 ## Can't find stylesheet to import
 Git Action에서 jekyll을 빌드했더니 아래와 같은 오류가 발생했다.
 
+재미있는건 로컬 서버에서 빌드할때는 에러가 발생하지 않는다.
+
 ### 에러 Console 내용
 
 ```shell

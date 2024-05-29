@@ -43,7 +43,7 @@ media_subpath: '/posts/20180809'
 
   
 
-GitHub에 로그인하여 [**Chirpy Starter**](https://github.com/cotes2020/chirpy-starter)로 이동하여 <kbd>Use this template</kbd> > <kbd>Create a new repository</kbd> 버튼을 클릭하고, 새로운 저장소 이름을 `USERNAME.github.io`로 지정합니다. 여기서 `USERNAME`은 GitHub 사용자 이름을 나타냅니다.
+GitHub에 로그인하여 **Chirpy Starter**로 이동하여 <kbd>Use this template</kbd> > <kbd>Create a new repository</kbd> 버튼을 클릭하고, 새로운 저장소 이름을 `USERNAME.github.io`로 지정합니다. 여기서 `USERNAME`은 GitHub 사용자 이름을 나타냅니다.
 
   
 
@@ -51,7 +51,7 @@ GitHub에 로그인하여 [**Chirpy Starter**](https://github.com/cotes2020/chir
 
   
 
-GitHub에 로그인하여 [**Chirpy Fork**](https://github.com/cotes2020/jekyll-theme-chirpy/fork)를 하고, 이를 `USERNAME.github.io`로 이름을 변경합니다 (`USERNAME`은 사용자 이름을 의미합니다).
+GitHub에 로그인하여 **Chirpy Fork**를 하고, 이를 `USERNAME.github.io`로 이름을 변경합니다 (`USERNAME`은 사용자 이름을 의미합니다).
 
   
 

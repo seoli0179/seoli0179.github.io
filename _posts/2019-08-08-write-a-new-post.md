@@ -226,7 +226,7 @@ image:
 ---
 ```
 
-미리보기 이미지에 ['media_subpath'](#url-prefix)를 전달할 수도 있습니다. 즉, 미리보기 이미지가 설정된 경우 `path` 속성은 이미지 파일 이름만 있으면 됩니다.
+미리보기 이미지에 `media_subpath`를 전달할 수도 있습니다. 즉, 미리보기 이미지가 설정된 경우 `path` 속성은 이미지 파일 이름만 있으면 됩니다.
 
 간단한 사용을 위해 `image`를 사용하여 경로를 정의할 수도 있습니다.
 
@@ -248,7 +248,7 @@ image:
 ```
 
 > You can observe LQIP in the preview image of post \"[Text and Typography](../text-and-typography/)\".
-> 게시물 \"[Text and Typography](.../Text and Typography/)\"의 미리보기 이미지에서 LQIP를 관찰할 수 있습니다.
+> 게시물 `Text and Typography`의 미리보기 이미지에서 LQIP를 관찰할 수 있습니다.
 
 일반 이미지:
 

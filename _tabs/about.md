@@ -4,16 +4,15 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-![header](https://capsule-render.vercel.app/api?type=slice&color=auto&height=200&section=header&text=Hello%20World!&desc=Seoli%20GitHub&fontSize=60&rotate=14&fontAlignY=25&fontAlign=75&descAlignY=43&descAlign=80&&animation=twinkling)
+![header](https://capsule-render.vercel.app/api?type=slice&color=auto&height=200&section=header&text=Tech%20Blog&desc=Records%20Is%20The%20Rule%20Of%20Memory&fontSize=60&rotate=14&fontAlignY=25&fontAlign=75&descAlignY=43&descAlign=80&&animation=twinkling)
 
 <div align=center>
 
-## Introduction :raised_hands:
-안녕하세요, 신입 Backend Developer 서리입니다.<br/>
-부족하지만 멈추지않고 성장하는 개발자입니다.<br/>
-<br/><br/>
+<h1> Introduction 🙌</h1>
+<h3>안녕하세요<br/> Backend Developer 김태수입니다.<br>포기하지않고 꾸준히 성장하는 개발자입니다.</h3><br/>
 
-## Contact 📞
+
+<h1> Contact 📞 </h1>
   <a href="https://seoli0179.github.io" style="text-decoration:none">
    <img src="https://img.shields.io/badge/Blog-FF5722?style=flat&logo=blogger&logoColor=white"/>
   </a>
@@ -26,7 +25,7 @@ order: 4
  <br/>
  <br/>
 
-## Skill :four_leaf_clover:
+<h1> Skill 🍀 </h1>
 
   <img src="https://img.shields.io/badge/Html5-E34F26?style=flat&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"/>
@@ -43,11 +42,8 @@ order: 4
   <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white"/>
 <br/><br/>
 
-## Problem Solving :muscle:
- </a>
-
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=seoli0179)](https://solved.ac/seoli0179/)
-
-<br/><br/><br/>
-
+<h1> Problem Solving 🍀 </h1>
+<img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=seoli0179" alt="Solved.ac프로필">
 </div>
+
+

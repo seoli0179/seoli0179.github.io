@@ -2,7 +2,7 @@
 title: 게시물 작성
 author: cotes
 date: 2019-08-08 14:10:00 +0800
-categories: [Blogging]
+categories: [Blogging,Guide]
 tags: [Jekyll]
 render_with_liquid: false
 ---

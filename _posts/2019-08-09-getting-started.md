@@ -5,7 +5,7 @@ description: >-
     이 문서를 통해 Chirpy 기반 웹사이트를 설치하고 구성하며 사용하는 방법과 이를 웹 서버에 배포하는 방법을 배우게 됩니다.
 author: cotes
 date: 2019-08-09 20:55:00 +0800
-categories: [Blogging]
+categories: [Blogging,Guide]
 tags: [Jekyll]
 pin: false
 media_subpath: '/posts/20180809'

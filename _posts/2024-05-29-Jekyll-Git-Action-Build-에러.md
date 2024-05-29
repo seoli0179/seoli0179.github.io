@@ -2,7 +2,7 @@
 title: Jekyll Git Action Build 에러
 date: 2024-05-29 20:30:00 +0900
 categories: [Blogging]
-tags: [Debug,Git Action]
+tags: [Debug,Git Action,Jekyll,Debug]
 render_with_liquid: false
 ---
 

@@ -5,9 +5,9 @@ description: >-
     이 문서를 통해 Chirpy 기반 웹사이트를 설치하고 구성하며 사용하는 방법과 이를 웹 서버에 배포하는 방법을 배우게 됩니다.
 author: cotes
 date: 2019-08-09 20:55:00 +0800
-categories: [Blogging, Tutorial]
-tags: [getting started]
-pin: true
+categories: [Blogging]
+tags: [Jekyll]
+pin: false
 media_subpath: '/posts/20180809'
 ---
 
@@ -33,9 +33,9 @@ media_subpath: '/posts/20180809'
 
   
 
-- [**Chirpy Starter 사용**](#옵션-1.-Chirpy-Starter-사용) — 업그레이드가 쉽고, 관련 없는 프로젝트 파일을 격리하여 작성에 집중할 수 있습니다.
+- **Chirpy Starter 사용** — 업그레이드가 쉽고, 관련 없는 프로젝트 파일을 격리하여 작성에 집중할 수 있습니다.
 
-- [**GitHub Fork**](#옵션-2.-GitHub-Fork) — 커스텀 개발에 편리하지만 업그레이드가 어렵습니다. Jekyll에 익숙하고 이 프로젝트에 기여하거나 수정하려는 의지가 없으면 이 방법은 권장되지 않습니다.
+- **GitHub Fork** — 커스텀 개발에 편리하지만 업그레이드가 어렵습니다. Jekyll에 익숙하고 이 프로젝트에 기여하거나 수정하려는 의지가 없으면 이 방법은 권장되지 않습니다.
 
   
 

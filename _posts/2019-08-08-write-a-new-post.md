@@ -46,7 +46,6 @@ tags: [bee]
 
 ### 작성자 정보
 
-The author information of the post usually does not need to be filled in the _Front Matter_ , they will be obtained from variables `social.name` and the first entry of `social.links` of the configuration file by default. But you can also override it as follows:
 게시물의 작성자 정보는 일반적으로 _Front Matter_에 입력할 필요가 없으며, 기본적으로 구성 파일의 변수 `social.name` 과 `social.links`의 첫 번째 항목에서 얻을 수 있습니다. 그러나 다음과 같이 재정의 할 수도 있습니다:
 
 `_data/authors.yml`에 작성자 정보 추가 (만약 사이트에 이 파일이 없는 경우 생성하세요).
@@ -76,7 +75,7 @@ authors: [<author1_id>, <author2_id>]   # for multiple entries
 
 ### 게시물 설명
 
-기본적으로 게시물의 첫 단어는 게시물 목록에 대한 홈페이지, _Further Reading_ 섹션 및 RSS 피드의 XML에 표시하는 데 사용됩니다. 게시물에 대한 자동 생성 설명을 표시하지 않으려면 _Front Matter_의 'description' 필드를 사용하여 사용자 지정할 수 있습니다:
+기본적으로 게시물의 첫 단어는 게시물 목록에 대한 홈페이지, _Further Reading_ 섹션 및 RSS 피드의 XML에 표시하는 데 사용됩니다. 게시물에 대한 자동 생성 설명을 표시하지 않으려면 _Front Matter_ 의 'description' 필드를 사용하여 사용자 지정할 수 있습니다:
 
 ```yaml
 ---
@@ -123,7 +122,7 @@ comments: false
   ```
   {: file='_config.yml' .nolineno }
 
-- 현재 게시물/페이지 범위에 대한 리소스 경로 접두사를 지정하려면, 게시물의 _front matter_에 `media_subpath`를 설정합니다:
+- 현재 게시물/페이지 범위에 대한 리소스 경로 접두사를 지정하려면, 게시물의 _front matter_ 에 `media_subpath`를 설정합니다:
 
   ```yaml
   ---
@@ -167,7 +166,7 @@ _Chirpy v5.0.0_ 버전부터는, `height` and `width` 축약어를 지원합니�
 
 #### 위치
 
-기본적으로 이미지는 중앙에 배치되지만, 'normal', 'left', 'right' 중 하나를 사용하여 위치를 지정할 수 있습니다.
+기본적으로 이미지는 중앙에 배치되지만, `normal`, `left`, `right` 중 하나를 사용하여 위치를 지정할 수 있습니다.
 
 > 위치를 지정하면 이미지 설명이 추가되지 않습니다.
 {: .prompt-warning }
@@ -215,7 +214,7 @@ _Chirpy v5.0.0_ 버전부터는, `height` and `width` 축약어를 지원합니�
 
 #### 미리보기 이미지
 
-게시물 상단에 이미지를 추가하시려면, 1200 x 630의 해상도를 가진 이미지를 제공해주시기 바랍니다. 이미지 가로 세로 비율이 1.91 : 1을 만족하지 않으면 이미지의 스케일과 크롭이 진행됩니다.
+게시물 상단에 이미지를 추가하시려면, `1200 x 630`의 해상도를 가진 이미지를 제공해주시기 바랍니다. 이미지 가로 세로 비율이 `1.91 : 1`을 만족하지 않으면 이미지의 스케일과 크롭이 진행됩니다.
 
 이러한 전제 조건을 알고 이미지의 속성 설정을 시작할 수 있습니다:
 
@@ -227,9 +226,9 @@ image:
 ---
 ```
 
-미리보기 이미지에 ['media_subpath'](#url-prefix)를 전달할 수도 있습니다. 즉, 미리보기 이미지가 설정된 경우 'path' 속성은 이미지 파일 이름만 있으면 됩니다.
+미리보기 이미지에 ['media_subpath'](#url-prefix)를 전달할 수도 있습니다. 즉, 미리보기 이미지가 설정된 경우 `path` 속성은 이미지 파일 이름만 있으면 됩니다.
 
-간단한 사용을 위해 'image'를 사용하여 경로를 정의할 수도 있습니다.
+간단한 사용을 위해 `image`를 사용하여 경로를 정의할 수도 있습니다.
 
 ```yml
 ---
@@ -268,7 +267,7 @@ image:
 {% include embed/{Platform}.html id='{ID}' %}
 ```
 
-여기서 'Platform'은 플랫폼 이름의 소문자이고, 'ID'는 비디오 ID입니다.
+여기서 `Platform`은 플랫폼 이름의 소문자이고, `ID`는 비디오 ID입니다.
 
 다음 표는 주어진 비디오 URL에서 필요한 두 개의 파라미터를 얻는 방법을 보여주며, 현재 지원되는 비디오 플랫폼도 알 수 있습니다.
 
@@ -286,7 +285,7 @@ image:
 {% include embed/video.html src='{URL}' %}
 ```
 
-여기서 'URL'은 동영상 파일의 URL입니다 e.g. `/path/to/sample/video.mp4`.
+여기서 `URL`은 동영상 파일의 URL입니다 e.g. `/path/to/sample/video.mp4`.
 
 내장된 비디오 파일에 대한 추가 속성을 지정할 수도 있습니다. 여기에 허용되는 전체 속성 목록이 있습니다.
 
@@ -320,7 +319,7 @@ image:
 {% include embed/audio.html src='{URL}' %}
 ```
 
-여기서 'URL'은 오디오 파일의 URL입니다 e.g. `/path/to/audio.mp3`.
+여기서 `URL`은 오디오 파일의 URL입니다 e.g. `/path/to/audio.mp3`.
 
 내장된 오디오 파일에 대한 추가 속성을 지정할 수도 있습니다. 여기에 허용되는 전체 속성 목록이 있습니다.
 

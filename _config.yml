@@ -17,7 +17,7 @@ timezone: Asia/Seoul
 
 title: TaeSu # the main title
 
-tagline: 신입 백엔드 개발자 김태수 입니다 # it will display as the sub-title
+tagline: 신입 백엔드 개발자 김태수 블로그 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.

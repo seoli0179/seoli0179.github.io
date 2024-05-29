@@ -226,3 +226,15 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+jekyll_compose:
+  auto_open: true # 게시글 생성시 자동열림
+  default_front_matter:
+    drafts:
+      category: []
+      tags: []
+    posts:
+      category: []
+      tags: []
+      published: true
+      pin: false

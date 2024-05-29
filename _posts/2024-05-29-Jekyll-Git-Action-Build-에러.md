@@ -2,7 +2,7 @@
 title: Jekyll Git Action Build 에러
 date: 2024-05-29 20:30:00 +0900
 categories: [Blogging]
-tags: [Debug,Git Action,Jekyll,Debug]
+tags: [Debug,Git Action,Jekyll]
 render_with_liquid: false
 ---
 
@@ -122,9 +122,39 @@ bundler: failed to load command: jekyll (/home/runner/work/seoli0179.github.io/s
 Error: Process completed with exit code 1.
 ```
 
+
+
+```
+---
+---
+
+@import 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+```
+{: file="assets\css\jekyll-theme-chirpy.scss"}
+
+
+
+```
+@import 'dist/bootstrap';
+@import 'main';
+```
+{: file="_sass\main.bundle.scss"}
+
+
+
 ### 해결방법
 
-[부트스트랩 Github](https://github.com/twbs/bootstrap/tree/main/dist/css)에서 dist/css 파일을 다운로드 받아 dist/bootstrap으로 이름 변경 후 Git 푸쉬함
+1. [부트스트랩 Github](https://github.com/twbs/bootstrap/tree/main/dist/css)에서 dist/css 파일을 다운로드 
+2. dist/bootstrap 이름 변경
+3. _sass\에 폴더 이동
+3. Git 푸쉬함
 
 
 참고 사이트:

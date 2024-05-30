@@ -247,7 +247,7 @@ image:
 ---
 ```
 
-> You can observe LQIP in the preview image of post \"[Text and Typography](../text-and-typography/)\".
+> You can observe LQIP in the preview image of post \"[마크다운 문법](../마크다운-문법/)\".
 > 게시물 `Text and Typography`의 미리보기 이미지에서 LQIP를 관찰할 수 있습니다.
 
 일반 이미지:

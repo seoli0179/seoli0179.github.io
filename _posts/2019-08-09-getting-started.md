@@ -1,12 +1,12 @@
 ---
-title: 시작하기
+title: "[Jekyll] 시작하기"
 description: >-
     Chirpy의 기본 사항을 다루는 포괄적인 개요로 시작하세요.
     이 문서를 통해 Chirpy 기반 웹사이트를 설치하고 구성하며 사용하는 방법과 이를 웹 서버에 배포하는 방법을 배우게 됩니다.
 author: cotes
 date: 2019-08-09 20:55:00 +0800
-categories: [Blogging,Guide]
-tags: [Jekyll]
+categories: [Blog]
+tags: [Jekyll,Guide]
 pin: false
 media_subpath: '/posts/20180809'
 ---

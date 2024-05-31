@@ -1,8 +1,8 @@
 ---
-title: 게시물 작성
+title: "[Jekyll] 게시물 작성"
 author: cotes
 date: 2019-08-08 14:10:00 +0800
-categories: [Blogging,Guide]
+categories: [Blog]
 tags: [Jekyll]
 render_with_liquid: false
 ---
